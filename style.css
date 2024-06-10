@@ -54,3 +54,24 @@ root { --cor-de-fundo: #161618;
                                 border-radius:0.40px.0.0;
                             }
                         }
+                     .botoes {
+                        display:block
+                     }
+
+                     botao.ativo{
+                        background-color: var(--botao-ativo);
+                        border-bottom: 4px solid var(--verde);                       
+                     }
+
+                     .aba-conteudo.ativo{
+                        display: block;
+                     }
+
+                     .aba-conteudo{
+                        display:none;
+                     }
+
+                     .aba-conteudo-titulo-principal{
+                        font-size: 28px;
+                        text-align: center;
+                     }
